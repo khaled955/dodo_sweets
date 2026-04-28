@@ -1,0 +1,198 @@
+{
+  "brand": {
+    "name": "دودو سويتس",
+    "slogan": "كل قطعة حلوى تصنع لحظة سعيدة"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "shop": "المتجر",
+    "collections": "المجموعات",
+    "about": "من نحن",
+    "contact": "تواصل معنا",
+    "dashboard": "لوحة التحكم"
+  },
+  "hero": {
+    "badge": "مصنوعة بحب",
+    "title": "لحظات لذيذة",
+    "titleAccent": "تُسلَّم إليك",
+    "description": "اختبر فن الحلويات الأرتيزانية. من مطبخنا إلى بابك، نصنع كل حلوى بمكونات فاخرة ولمسة من السحر.",
+    "cta": "تسوق الآن",
+    "ctaSecondary": "عرض المجموعات"
+  },
+  "categories": {
+    "title": "فئاتنا الأرتيزانية",
+    "subtitle": "مجموعات منسقة لكل رغبة",
+    "browseAll": "تصفح جميع الفئات",
+    "cakes": "كيك",
+    "cupcakes": "كب كيك",
+    "chocolates": "شوكولاتة",
+    "cookies": "كوكيز"
+  },
+  "featured": {
+    "badge": "المجموعة",
+    "title": "إبداعات مميزة",
+    "subtitle": "أكثر حلوياتنا الأرتيزانية إثارة للإعجاب، مصنوعة يدوياً يومياً"
+  },
+  "bestSellers": {
+    "title": "المفضلة لدى العملاء",
+    "all": "الكل",
+    "vegan": "نباتي",
+    "glutenFree": "خالٍ من الجلوتين"
+  },
+  "about": {
+    "badge": "قصتنا",
+    "title": "صُنعت بشغف",
+    "description": "وُلدت دودو سويتس من حب الحلويات الراقية والإيمان بأن كل احتفال يستحق شيئاً استثنائياً. نستخدم فقط أجود المكونات المحلية والعالمية لصنع حلويات تسعد الحواس.",
+    "stat1Value": "+5",
+    "stat1Label": "سنوات من التميز",
+    "stat2Value": "+200",
+    "stat2Label": "وصفة أرتيزانية",
+    "stat3Value": "+10K",
+    "stat3Label": "عميل سعيد"
+  },
+  "reviews": {
+    "badge": "ثناء حلو",
+    "title": "ماذا يقول عملاؤنا"
+  },
+  "newsletter": {
+    "title": "انضم إلى مجتمعنا الحلو",
+    "description": "اشترك لتلقي وصفات سرية، والوصول المبكر لمجموعات جديدة، ومفاجآت حلوة في بريدك.",
+    "placeholder": "أدخل بريدك الإلكتروني",
+    "cta": "اشترك",
+    "disclaimer": "بالاشتراك توافق على سياسة الخصوصية."
+  },
+  "footer": {
+    "quickLinks": "روابط سريعة",
+    "support": "الدعم",
+    "visitUs": "زرنا",
+    "home": "الرئيسية",
+    "collections": "المجموعات",
+    "giftingGuide": "دليل الهدايا",
+    "ourStory": "قصتنا",
+    "contactUs": "تواصل معنا",
+    "shippingReturns": "الشحن والإرجاع",
+    "privacyPolicy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة",
+    "copyright": "© {year} دودو سويتس. جميع الحقوق محفوظة."
+  },
+  "product": {
+    "addToCart": "أضف إلى السلة",
+    "addToWishlist": "أضف إلى المفضلة",
+    "quickAdd": "إضافة سريعة",
+    "quantity": "الكمية",
+    "price": "السعر",
+    "description": "الوصف",
+    "relatedProducts": "حلويات مكملة",
+    "reviews": "آراء العملاء",
+    "writeReview": "اكتب تقييماً",
+    "fastDelivery": "توصيل سريع",
+    "qualityGuaranteed": "جودة مضمونة",
+    "inStock": "متوفر",
+    "currency": "ج.م",
+    "sale": "تخفيض"
+  },
+  "auth": {
+    "login": {
+      "title": "مرحباً بعودتك",
+      "subtitle": "سجّل الدخول للوصول إلى مجموعة حلوياتك.",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "gourmet@example.com",
+      "password": "كلمة المرور",
+      "rememberMe": "تذكرني لمدة 30 يوماً",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "submit": "تسجيل الدخول",
+      "noAccount": "ليس لديك حساب؟",
+      "registerLink": "سجّل الآن",
+      "orContinueWith": "أو تابع عبر",
+      "google": "جوجل",
+      "facebook": "فيسبوك"
+    },
+    "register": {
+      "title": "إنشاء حساب",
+      "subtitle": "انضم إلى دائرتنا من عشاق الحلويات الراقية.",
+      "profilePicture": "صورة الملف الشخصي (اختياري)",
+      "uploadPhoto": "رفع صورة",
+      "firstName": "الاسم الأول",
+      "firstNamePlaceholder": "إلياس",
+      "lastName": "اسم العائلة",
+      "lastNamePlaceholder": "ثورن",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "elias.t@luxury.com",
+      "phone": "رقم الهاتف",
+      "phonePlaceholder": "+20 (100) 000-0000",
+      "password": "كلمة المرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "terms": "أوافق على",
+      "termsLink": "شروط الخدمة",
+      "and": "و",
+      "privacyLink": "سياسة الخصوصية",
+      "submit": "إنشاء الحساب",
+      "haveAccount": "لديك حساب بالفعل؟",
+      "loginLink": "تسجيل الدخول",
+      "orRegisterWith": "أو سجّل عبر",
+      "google": "جوجل",
+      "apple": "آبل"
+    },
+    "forgotPassword": {
+      "title": "نسيت كلمة المرور",
+      "subtitle": "أدخل بريدك وسنرسل رابط إعادة الضبط.",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "gourmet@example.com",
+      "submit": "إرسال رابط الاستعادة",
+      "backToLogin": "العودة لتسجيل الدخول",
+      "successMessage": "إذا كان البريد مسجلاً، سيصلك رابط الاستعادة."
+    },
+    "resetPassword": {
+      "title": "إعادة ضبط كلمة المرور",
+      "subtitle": "أنشئ كلمة مرور جديدة لحسابك.",
+      "password": "كلمة المرور الجديدة",
+      "confirmPassword": "تأكيد كلمة المرور الجديدة",
+      "submit": "إعادة الضبط",
+      "successMessage": "تم تغيير كلمة المرور بنجاح!"
+    },
+    "banner": {
+      "brandSubtitle": "فن الحلويات الراقية.",
+      "quote": "الدقة هي المكوّن السري في كل قطعة.",
+      "quoteAuthor": "الشيف ماستر إيلينا فو",
+      "quoteAuthorTitle": "رئيسة قسم الحلويات"
+    }
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "overview": "نظرة عامة",
+    "products": "المنتجات",
+    "orders": "الطلبات",
+    "customers": "العملاء",
+    "settings": "الإعدادات",
+    "totalProducts": "إجمالي المنتجات",
+    "totalRevenue": "إجمالي الإيرادات",
+    "totalOrders": "إجمالي الطلبات",
+    "bestSellers": "الأكثر مبيعاً",
+    "recentOrders": "الطلبات الأخيرة",
+    "search": "بحث...",
+    "productName": "اسم المنتج",
+    "productPrice": "السعر",
+    "productId": "الرقم",
+    "actions": "الإجراءات",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "welcome": "مرحباً بعودتك"
+  },
+  "common": {
+    "loading": "جارٍ التحميل...",
+    "error": "حدث خطأ ما",
+    "retry": "إعادة المحاولة",
+    "noProducts": "لا توجد منتجات",
+    "backHome": "العودة للرئيسية",
+    "seeAll": "عرض الكل",
+    "close": "إغلاق",
+    "open": "فتح",
+    "menu": "القائمة",
+    "cart": "السلة",
+    "wishlist": "المفضلة",
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل الخروج",
+    "addedToCart": "تمت الإضافة إلى السلة!",
+    "addedToWishlist": "تمت الإضافة إلى المفضلة!"
+  }
+}

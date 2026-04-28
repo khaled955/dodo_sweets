@@ -1,0 +1,198 @@
+{
+  "brand": {
+    "name": "DodoSweets",
+    "slogan": "Where every bite feels like a celebration"
+  },
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "collections": "Collections",
+    "about": "About",
+    "contact": "Contact",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "badge": "Handcrafted with Love",
+    "title": "Delicious Moments",
+    "titleAccent": "Delivered",
+    "description": "Experience the art of artisan sweets. From our kitchen to your door, we craft every treat with premium ingredients and a dash of magic.",
+    "cta": "Shop Now",
+    "ctaSecondary": "View Collections"
+  },
+  "categories": {
+    "title": "Our Artisan Categories",
+    "subtitle": "Curated collections for every craving",
+    "browseAll": "Browse All Categories",
+    "cakes": "Cakes",
+    "cupcakes": "Cupcakes",
+    "chocolates": "Chocolates",
+    "cookies": "Cookies"
+  },
+  "featured": {
+    "badge": "The Collection",
+    "title": "Featured Creations",
+    "subtitle": "Our most-loved artisan sweets, handcrafted daily"
+  },
+  "bestSellers": {
+    "title": "Customer Favorites",
+    "all": "All",
+    "vegan": "Vegan",
+    "glutenFree": "Gluten Free"
+  },
+  "about": {
+    "badge": "Our Story",
+    "title": "Crafted with Passion",
+    "description": "DodoSweets was born from a love of fine patisserie and a belief that every celebration deserves something extraordinary. We use only the finest ingredients, sourced locally and globally, to craft sweets that delight the senses.",
+    "stat1Value": "5+",
+    "stat1Label": "Years of Excellence",
+    "stat2Value": "200+",
+    "stat2Label": "Artisan Recipes",
+    "stat3Value": "10K+",
+    "stat3Label": "Happy Customers"
+  },
+  "reviews": {
+    "badge": "Sweet Praise",
+    "title": "What Our Clients Say"
+  },
+  "newsletter": {
+    "title": "Join our Sweet Society",
+    "description": "Subscribe to receive secret recipes, early access to new collections, and sweet surprises in your inbox.",
+    "placeholder": "Enter your email",
+    "cta": "Subscribe",
+    "disclaimer": "By subscribing you agree to our Privacy Policy."
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "support": "Support",
+    "visitUs": "Visit Us",
+    "home": "Home",
+    "collections": "Collections",
+    "giftingGuide": "Gifting Guide",
+    "ourStory": "Our Story",
+    "contactUs": "Contact Us",
+    "shippingReturns": "Shipping & Returns",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© {year} DodoSweets. All Rights Reserved."
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "addToWishlist": "Add to Wishlist",
+    "quickAdd": "Quick Add",
+    "quantity": "Quantity",
+    "price": "Price",
+    "description": "Description",
+    "relatedProducts": "Complementary Treats",
+    "reviews": "Guest Reviews",
+    "writeReview": "Write a Review",
+    "fastDelivery": "Fast Delivery",
+    "qualityGuaranteed": "Quality Guaranteed",
+    "inStock": "In Stock",
+    "currency": "EGP",
+    "sale": "Sale"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to access your curated sweets collection.",
+      "email": "Email Address",
+      "emailPlaceholder": "gourmet@example.com",
+      "password": "Password",
+      "rememberMe": "Remember me for 30 days",
+      "forgotPassword": "Forgot Password?",
+      "submit": "Sign In",
+      "noAccount": "Don't have an account?",
+      "registerLink": "Register Now",
+      "orContinueWith": "Or continue with",
+      "google": "Google",
+      "facebook": "Facebook"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join our elite circle of confectionery connoisseurs.",
+      "profilePicture": "Profile Picture (Optional)",
+      "uploadPhoto": "Upload Photo",
+      "firstName": "First Name",
+      "firstNamePlaceholder": "Elias",
+      "lastName": "Last Name",
+      "lastNamePlaceholder": "Thorne",
+      "email": "Email Address",
+      "emailPlaceholder": "elias.t@luxury.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "terms": "I agree to the",
+      "termsLink": "Terms of Service",
+      "and": "and",
+      "privacyLink": "Privacy Policy",
+      "submit": "Register Account",
+      "haveAccount": "Already have an account?",
+      "loginLink": "Sign In",
+      "orRegisterWith": "OR REGISTER WITH",
+      "google": "Google",
+      "apple": "Apple"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "subtitle": "Enter your email and we'll send a reset link.",
+      "email": "Email Address",
+      "emailPlaceholder": "gourmet@example.com",
+      "submit": "Send Reset Link",
+      "backToLogin": "Back to Sign In",
+      "successMessage": "If this email exists, a reset link has been sent."
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "subtitle": "Create a new password for your account.",
+      "password": "New Password",
+      "confirmPassword": "Confirm New Password",
+      "submit": "Reset Password",
+      "successMessage": "Password reset successfully!"
+    },
+    "banner": {
+      "brandSubtitle": "The Art of Fine Patisserie.",
+      "quote": "Precision is the secret ingredient in every bite.",
+      "quoteAuthor": "Master Chef Elena Vo",
+      "quoteAuthorTitle": "Head Patissier"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "overview": "Overview",
+    "products": "Products",
+    "orders": "Orders",
+    "customers": "Customers",
+    "settings": "Settings",
+    "totalProducts": "Total Products",
+    "totalRevenue": "Total Revenue",
+    "totalOrders": "Total Orders",
+    "bestSellers": "Best Sellers",
+    "recentOrders": "Recent Orders",
+    "search": "Search...",
+    "productName": "Product Name",
+    "productPrice": "Price",
+    "productId": "ID",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "welcome": "Welcome back"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "noProducts": "No products found",
+    "backHome": "Back to Home",
+    "seeAll": "See All",
+    "close": "Close",
+    "open": "Open",
+    "menu": "Menu",
+    "cart": "Cart",
+    "wishlist": "Wishlist",
+    "profile": "Profile",
+    "logout": "Logout",
+    "addedToCart": "Added to cart!",
+    "addedToWishlist": "Added to wishlist!"
+  }
+}
