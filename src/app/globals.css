@@ -210,9 +210,10 @@
     @apply font-serif;
   }
 
-  /* Smooth scrolling */
+  /* Smooth scrolling + prevent horizontal scroll at viewport level */
   html {
     scroll-behavior: smooth;
+    overflow-x: clip;
   }
 }
 

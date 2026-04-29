@@ -17,7 +17,7 @@ export function AboutSection() {
   ];
 
   return (
-    <section className="py-20">
+    <section className="overflow-hidden py-20">
       <Container>
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
           {/* Image */}
