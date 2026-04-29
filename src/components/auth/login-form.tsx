@@ -47,7 +47,7 @@ export function LoginForm() {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder={t("auth.login.emailPlaceholder")}
+            placeholder="amryakout@yahoo.com"
             required
             autoComplete="email"
             startIcon={<Mail className="size-4" />}

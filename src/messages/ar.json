@@ -138,11 +138,11 @@
       "profilePicture": "صورة الملف الشخصي (اختياري)",
       "uploadPhoto": "رفع صورة",
       "firstName": "الاسم الأول",
-      "firstNamePlaceholder": "إلياس",
+      "firstNamePlaceholder": "عمرو",
       "lastName": "اسم العائلة",
-      "lastNamePlaceholder": "ثورن",
+      "lastNamePlaceholder": "ياقوت",
       "email": "البريد الإلكتروني",
-      "emailPlaceholder": "elias.t@luxury.com",
+      "emailPlaceholder": "amr.yakout@example.com",
       "phone": "رقم الهاتف",
       "phonePlaceholder": "+20 (100) 000-0000",
       "password": "كلمة المرور",
@@ -178,7 +178,7 @@
     "banner": {
       "brandSubtitle": "فن الحلويات الراقية.",
       "quote": "الدقة هي المكوّن السري في كل قطعة.",
-      "quoteAuthor": "الشيف ماستر إيلينا فو",
+      "quoteAuthor": "عمرو ياقوت",
       "quoteAuthorTitle": "رئيسة قسم الحلويات"
     }
   },

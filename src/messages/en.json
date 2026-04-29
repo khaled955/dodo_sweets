@@ -138,11 +138,11 @@
       "profilePicture": "Profile Picture (Optional)",
       "uploadPhoto": "Upload Photo",
       "firstName": "First Name",
-      "firstNamePlaceholder": "Elias",
+      "firstNamePlaceholder": "Amr",
       "lastName": "Last Name",
-      "lastNamePlaceholder": "Thorne",
+      "lastNamePlaceholder": "Yakout",
       "email": "Email Address",
-      "emailPlaceholder": "elias.t@luxury.com",
+      "emailPlaceholder": "amr.yakout@example.com",
       "phone": "Phone Number",
       "phonePlaceholder": "+1 (555) 000-0000",
       "password": "Password",
@@ -178,7 +178,7 @@
     "banner": {
       "brandSubtitle": "The Art of Fine Patisserie.",
       "quote": "Precision is the secret ingredient in every bite.",
-      "quoteAuthor": "Master Chef Elena Vo",
+      "quoteAuthor": "Amr Yakout",
       "quoteAuthorTitle": "Head Patissier"
     }
   },

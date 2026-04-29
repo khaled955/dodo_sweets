@@ -16,6 +16,7 @@ function Input({ className, startIcon, endIcon, ...props }: InputProps) {
       )}
       <input
         data-slot="input"
+        suppressHydrationWarning
         className={cn(
           "w-full rounded-lg border border-input bg-card px-3 py-2.5 text-sm text-foreground placeholder:text-muted-foreground",
           "outline-none transition-all",
