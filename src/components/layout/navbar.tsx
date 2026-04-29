@@ -1,15 +1,14 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
-import { ShoppingBag, Heart, Search, Menu } from "lucide-react";
+import { ShoppingBag, Heart, Search, Menu, LayoutDashboard } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Logo } from "@/components/common/logo";
 import { ThemeToggle } from "@/components/common/theme-toggle";
 import { LocaleSwitcher } from "@/components/common/locale-switcher";
 import { MobileMenu } from "@/components/layout/mobile-menu";
 import { useLocale } from "@/hooks/use-locale";
-import { cn } from "@/lib/utils/tailwind-merge";
 import type { NavItem } from "@/lib/types/nav";
 
 const NAV_ITEMS: NavItem[] = [
@@ -20,30 +19,12 @@ const NAV_ITEMS: NavItem[] = [
 ];
 
 export function Navbar() {
-  // State
-  const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-
-  // Context
   const { t } = useLocale();
-
-  // Effects
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   return (
     <>
-      <header
-        className={cn(
-          "fixed inset-x-0 top-0 z-50 transition-all duration-300",
-          scrolled
-            ? "glass border-b border-glass-border shadow-sm"
-            : "bg-transparent",
-        )}
-      >
+      <header className="fixed inset-x-0 top-0 z-50 glass border-b border-glass-border shadow-sm">
         <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
           {/* Logo */}
           <Logo showSlogan={false} />
@@ -64,10 +45,13 @@ export function Navbar() {
 
           {/* Actions */}
           <div className="flex items-center gap-1">
+            {/* Login — desktop/tablet */}
             <Button asChild variant="outline" size="sm" className="hidden rounded-full px-4 sm:flex">
               <Link href="/login">{t("auth.login.submit")}</Link>
             </Button>
-            <Button variant="ghost" size="icon" aria-label={t("common.cart")}>
+
+            {/* Icon actions */}
+            <Button variant="ghost" size="icon" aria-label="Search">
               <Search className="size-4.5" />
             </Button>
             <Button variant="ghost" size="icon" aria-label={t("common.wishlist")}>
@@ -76,10 +60,20 @@ export function Navbar() {
             <Button variant="ghost" size="icon" aria-label={t("common.cart")}>
               <ShoppingBag className="size-4.5" />
             </Button>
-            <div className="hidden sm:flex items-center gap-1">
+
+            {/* Dashboard icon */}
+            <Button variant="ghost" size="icon" asChild aria-label="Dashboard">
+              <Link href="/dashboard">
+                <LayoutDashboard className="size-4.5" />
+              </Link>
+            </Button>
+
+            {/* Theme + locale — desktop/tablet */}
+            <div className="hidden items-center gap-1 sm:flex">
               <LocaleSwitcher />
               <ThemeToggle />
             </div>
+
             {/* Mobile menu trigger */}
             <Button
               variant="ghost"

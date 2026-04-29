@@ -38,7 +38,7 @@ export function AboutSection() {
               />
             </div>
             {/* Floating stats */}
-            <div className="absolute -bottom-6 -end-6 glass rounded-2xl p-5 shadow-brand">
+            <div className="absolute bottom-4 end-4 lg:-bottom-6 lg:-end-6 glass rounded-2xl p-5 shadow-brand">
               <div className="flex gap-6">
                 {stats.slice(0, 2).map((s) => (
                   <div key={s.label} className="text-center">

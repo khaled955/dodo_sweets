@@ -1,6 +1,6 @@
 "use client";
 
-import { X } from "lucide-react";
+import { X, LayoutDashboard } from "lucide-react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -17,7 +17,6 @@ interface MobileMenuProps {
 }
 
 export function MobileMenu({ isOpen, onClose, navItems }: MobileMenuProps) {
-  // Context
   const { t } = useLocale();
 
   return (
@@ -35,12 +34,13 @@ export function MobileMenu({ isOpen, onClose, navItems }: MobileMenuProps) {
 
           {/* Panel */}
           <motion.div
-            className="fixed inset-y-0 start-0 z-50 flex w-72 flex-col bg-background shadow-2xl"
+            className="fixed inset-y-0 inset-s-0 z-50 flex w-72 flex-col bg-background shadow-2xl"
             initial={{ x: "-100%" }}
             animate={{ x: 0 }}
             exit={{ x: "-100%" }}
             transition={{ type: "spring", damping: 25, stiffness: 200 }}
           >
+            {/* Header */}
             <div className="flex items-center justify-between border-b border-border px-5 py-4">
               <Logo showSlogan />
               <Button variant="ghost" size="icon" onClick={onClose} aria-label={t("common.close")}>
@@ -48,6 +48,7 @@ export function MobileMenu({ isOpen, onClose, navItems }: MobileMenuProps) {
               </Button>
             </div>
 
+            {/* Nav links */}
             <nav className="flex-1 overflow-y-auto px-4 py-6">
               <ul className="space-y-1" role="list">
                 {navItems.map((item) => (
@@ -61,9 +62,31 @@ export function MobileMenu({ isOpen, onClose, navItems }: MobileMenuProps) {
                     </Link>
                   </li>
                 ))}
+
+                {/* Dashboard link */}
+                <li>
+                  <Link
+                    href="/dashboard"
+                    onClick={onClose}
+                    className="flex items-center gap-3 rounded-xl px-4 py-3 text-base font-medium text-foreground/80 transition-colors hover:bg-muted hover:text-primary"
+                  >
+                    <LayoutDashboard className="size-4.5" />
+                    {t("nav.dashboard")}
+                  </Link>
+                </li>
               </ul>
+
+              {/* Login button */}
+              <div className="mt-6">
+                <Button asChild className="w-full rounded-xl" size="default">
+                  <Link href="/login" onClick={onClose}>
+                    {t("auth.login.submit")}
+                  </Link>
+                </Button>
+              </div>
             </nav>
 
+            {/* Footer — theme + locale */}
             <div className="flex items-center justify-between border-t border-border px-5 py-4">
               <LocaleSwitcher />
               <ThemeToggle />

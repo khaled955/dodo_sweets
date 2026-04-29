@@ -50,6 +50,31 @@
     "stat3Value": "+10K",
     "stat3Label": "عميل سعيد"
   },
+  "contact": {
+    "badge": "تواصل معنا",
+    "title": "يسعدنا التواصل معك",
+    "description": "سواء كان طلباً خاصاً أو سؤالاً أو مجرد تحية — فريقنا دائماً سعيد بمساعدتك.",
+    "emailLabel": "البريد الإلكتروني",
+    "emailValue": "hello@dodosweets.com",
+    "phoneLabel": "الهاتف",
+    "phoneValue": "+20 100 000 0000",
+    "locationLabel": "الموقع",
+    "locationValue": "القاهرة، مصر",
+    "hoursLabel": "ساعات العمل",
+    "hoursValue": "السبت – الخميس، 9:00 ص – 9:00 م",
+    "form": {
+      "title": "أرسل رسالة",
+      "name": "الاسم الكامل",
+      "namePlaceholder": "اسمك",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "your@email.com",
+      "subject": "الموضوع",
+      "subjectPlaceholder": "كيف يمكننا مساعدتك؟",
+      "message": "الرسالة",
+      "messagePlaceholder": "اكتب رسالتك هنا...",
+      "submit": "إرسال الرسالة"
+    }
+  },
   "reviews": {
     "badge": "ثناء حلو",
     "title": "ماذا يقول عملاؤنا"
@@ -161,9 +186,13 @@
     "title": "لوحة التحكم",
     "overview": "نظرة عامة",
     "products": "المنتجات",
+    "productsDesc": "إدارة الحلويات والأسعار والصور والتوفر.",
     "orders": "الطلبات",
+    "ordersDesc": "تتبع طلبات العملاء وتحديث حالة الطلب.",
     "customers": "العملاء",
+    "customersDesc": "عرض العملاء المسجلين ونشاطهم.",
     "settings": "الإعدادات",
+    "settingsDesc": "إدارة تفضيلات المتجر وإعدادات لوحة التحكم.",
     "totalProducts": "إجمالي المنتجات",
     "totalRevenue": "إجمالي الإيرادات",
     "totalOrders": "إجمالي الطلبات",

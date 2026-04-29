@@ -50,6 +50,31 @@
     "stat3Value": "10K+",
     "stat3Label": "Happy Customers"
   },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "We'd Love to Hear From You",
+    "description": "Whether it's a special order, a question, or just to say hello — our team is always happy to help.",
+    "emailLabel": "Email",
+    "emailValue": "hello@dodosweets.com",
+    "phoneLabel": "Phone",
+    "phoneValue": "+20 100 000 0000",
+    "locationLabel": "Location",
+    "locationValue": "Cairo, Egypt",
+    "hoursLabel": "Working Hours",
+    "hoursValue": "Sat – Thu, 9:00 AM – 9:00 PM",
+    "form": {
+      "title": "Send a Message",
+      "name": "Full Name",
+      "namePlaceholder": "Your name",
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help?",
+      "message": "Message",
+      "messagePlaceholder": "Write your message here...",
+      "submit": "Send Message"
+    }
+  },
   "reviews": {
     "badge": "Sweet Praise",
     "title": "What Our Clients Say"
@@ -161,9 +186,13 @@
     "title": "Dashboard",
     "overview": "Overview",
     "products": "Products",
+    "productsDesc": "Manage sweets, prices, images, and availability.",
     "orders": "Orders",
+    "ordersDesc": "Track customer orders and update order status.",
     "customers": "Customers",
+    "customersDesc": "View registered customers and activity.",
     "settings": "Settings",
+    "settingsDesc": "Manage store preferences and dashboard configuration.",
     "totalProducts": "Total Products",
     "totalRevenue": "Total Revenue",
     "totalOrders": "Total Orders",
